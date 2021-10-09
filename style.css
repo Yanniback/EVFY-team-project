@@ -1,5 +1,70 @@
+header {
+    width: 100%;
+    min-height: 200px;
+    padding-top: 3em;
+  }
 .index{
-    background:no-repeat url(Website\ Images/homePic.jpg);
-    background-size: 1200px;
-    
+    background: linear-gradient(black,transparent),
+                url(Website\ Images/homePic.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%; 
+}
+.main-header {
+    width:100%;
+    margin: 2em auto 0 auto;
+    min-height: 100px;
+    height: 100px;
+  }
+  .main-header .logo img {
+    width: 100px;
+    height: 100px;
+    margin: 1em 2em;
+    float: left;
+  }
+/* Nav*/
+.main-menu {
+    margin-left: 200px;
+    font-weight: 400;
+  }
+  .main-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .main-menu ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+  }
+  .main-menu ul li a:hover {
+    color: #9ed034;
+  }
+  .main-menu ul li.active {
+    background: #9ed034;
+    border: none;
+  }
+  .main-menu ul li.active a {
+    color: #fff;
+  }
+/*intro Index*/
+main .introIndex{
+    background-color: rgba(255, 254, 254, 0.678);
+    width: 800px;
+    height: 500px;
+    margin-left: 400px;
+}
+.introIndex h1{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-decoration: underline rgb(135, 194, 46);
+}  
+.introIndex p{
+    padding:10px 10px;
+    word-wrap: break-word;   
 }
