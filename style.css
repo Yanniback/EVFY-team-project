@@ -16,15 +16,16 @@ header {
     height: 100px;
   }
   .main-header .logo img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin: 1em 2em;
     float: left;
   }
 /* Nav*/
 .main-menu {
     margin-left: 200px;
-    font-weight: 400;
+    font-weight: 40px;
+    width: auto;
   }
   .main-menu ul li {
     list-style-type: none;
@@ -55,7 +56,10 @@ main .introIndex{
     background-color: rgba(255, 254, 254, 0.678);
     width: 800px;
     height: 500px;
-    margin-left: 400px;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
 }
 .introIndex h1{
     text-align: center;
@@ -126,4 +130,11 @@ footer .contactlogo {
 }
 footer #disclaimer2{
     clear:both;
+}
+.introIndex button{
+    height: 80px;
+    background-color: rgb(135, 194, 46);
+    color: #fff;
+    font-size: 20px;
+
 }
