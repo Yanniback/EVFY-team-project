@@ -74,4 +74,8 @@ main .introIndex{
 }
 .introIndex button{
     height: 80px;
+    background-color: rgb(135, 194, 46);
+    color: #fff;
+    font-size: 20px;
+
 }
