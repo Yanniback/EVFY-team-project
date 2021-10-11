@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>EVFY</title>
+        <link rel="stylesheet"  href="style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+<body id="contact">
+    <!--Container to wrap everything-->
+    <div class="index">
+    <header>
+    <div class="main-header">   
+        <!--Brand of Website-->
+        <div class="logo">
+        <img src="EVFY Logos/logo(green border).jpg" >
+        </div>
+        <!--Main Navigation-->
+        <nav >
+            <div class="main-menu">
+                <ul>
+                    <li><a href="about.html">About EVFY</a></li>
+                    <li ><a href="index.html"><p style="word-wrap: keep-all;">Sustainability Index</p></a></li>
+                    <li><a href="Roadmap.html">Sustainability Roadmap</a></li>
+                    <li><a href="partner.html">Our Partners</a></li>
+                    <li class="active"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>   
+        </nav>
+
+    </div>
+    </header>
+     <!--Main Content-->
+<main>
+    <form action="/contact" method="post">
+        <fieldset>
+            <p>To learn more about the EVFY program, and receive a Level 2 home charger, please fill out the form below.</p>
+            <div class="textbox">
+                <div class="cell">
+                <label>First name</label> 
+                <input type="text" name="name">
+                </div>
+                <div class="cell">
+                <label>Last name</label> 
+                <input type="text" name="name">
+                </div>
+                <div class="cell">
+                <span>Address:</span><br>
+                <label>Street</label>
+                <input type="address" name="address">
+                </div>
+                <div class="smallcell">
+                <label>City</label>
+                <input type="text" name="address">
+                <input type="text" name="address" id="city">
+                </div>
+                <div class="smallcell">
+                <label>Zip</label>
+                <input type="text" name="address">
+                <input type="text" name="address" id="zip">
+                </div>
+                <div class="cell">
+                <label>Cell Phone</label>
+                <input type="text" name="phone">
+                </div>
+                <div class="cell">
+                <label>Email:</label>  
+                <input type="email" name="email">
+                </div>
+            </div>
+            <div class="randomcode">
+                <label>Enter code as seen:</label>
+                <input type="text" name="randomcode" id = "codeentered">
+                <span id="codes"></span>
+            </div>
+            <div class="codebutton">
+                <input type="reset" id="reset" value="Reset">
+                <input type="submit" id="submit" value="Send">
+            </div>
+
+        </fieldset>
+    </form>
+    
+</main> <!-- End of Main Content-->
+</div>
+
+
+
+<!--Footer Information-->
+    <footer>
+        <div id="disclaimer1">
+            <div class="contactinfo">
+                <div class="infobox1">
+                    <h5>Customer Service Support:</h5>
+                    <p>1-877-GET-EVFY<br>
+                       info@ev-fy.com</p>
+                    <div class="social">
+                        <a href="#"><img src="social media icons/fb.png"></a>
+                        <a href="#"><img src="social media icons/twitter.png"></a>
+                        <a href="#"><img src="social media icons/instagram.png"></a>
+                        <a href="#"><img src="social media icons/linkedin.png"></a>
+                    </div>
+                </div>
+                <div class="infobox2">
+                    <h5>Where to Find Us:</h5>
+                    <p>EVFY, Inc<br>
+                    4360 Park Terrace Dr. Suite 100,<br>
+                    Westlake Village, CA 91361</p>
+                </div>
+            </div>
+            <div class="contactlogo">
+                <img src="EVFY Logos/EVFY_logos-Black_green_green_border_RGB_HR.png">
+                <P></P>
+            </div>
+        </div>
+        <div id="disclaimer2">
+            <p>&copy; 2021 EVFY All right reserved. <span><a href="#">Privacy Policy</a></span> and <span><a href="#">Terms of Use</a></span></p>
+        </div>
+    </footer>
+</div>
+
+
+<!--Randomcodes-->
+<script src="js/randomcode.js"></script>
+</body>
+</html>

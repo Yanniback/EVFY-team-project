@@ -52,14 +52,16 @@ header {
     color: #fff;
   }
 /*intro Index*/
+main{
+    padding-bottom: 80px;
+}
 main .introIndex{
     background-color: rgba(255, 254, 254, 0.678);
     width: 800px;
     height: 500px;
     margin: 0 auto;
     font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    
+    text-align: center;  
 }
 .introIndex h1{
     text-align: center;
@@ -72,6 +74,14 @@ main .introIndex{
     padding:10px 10px;
     word-wrap: break-word;   
 }
+.introIndex button{
+    height: 80px;
+    background-color: rgb(135, 194, 46);
+    color: #fff;
+    font-size: 20px;
+
+}
+
 /*Footer*/
 footer{
     width:100%;
@@ -131,10 +141,106 @@ footer .contactlogo {
 footer #disclaimer2{
     clear:both;
 }
-.introIndex button{
-    height: 80px;
-    background-color: rgb(135, 194, 46);
-    color: #fff;
-    font-size: 20px;
 
+
+/*Contact Us*/
+form{
+    font-size: 20px;
 }
+#contact .index{
+    background: linear-gradient(black,transparent),
+                url(Website\ Images/contactpic.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    height: auto;
+   
+}
+
+#contact fieldset{
+    background-color: rgba(255, 254, 254, 0.678);
+    border:none;
+    height: 540px;
+    width: 510px;
+    margin-left: 1100px;
+    margin-top: 60px;
+    padding-left: 30px;
+}
+fieldset .textbox .cell{
+    margin-bottom: 19px;
+}
+.textbox label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+fieldset .textbox .smallcell{
+    margin-bottom: 19px;
+}
+.textbox input, .randomcode input{
+    
+    background-color: rgba(149, 149, 149, 0.284);
+    border:rgba(149, 149, 149, 0.832) 1px solid;
+}
+fieldset .textbox .cell span{
+    font-style: italic;
+}
+.textbox .cell input{
+    width: 380px;
+    height: 20px;
+}
+.textbox .smallcell input, .randomcode input{
+    height: 20px;
+}
+
+.smallcell #city{
+    margin-left:87px ;
+}
+.smallcell #zip{
+    margin-left:87px ;
+}
+
+.randomcode #codes{
+    background-color:rgba(12, 110, 247, 0.373) ;
+    font-weight: bold;
+    width: 120px;
+    height: 35px;
+    color:white;
+    float: right;
+    margin-right: 60px;
+    text-align: center;
+    padding-top: 5px;
+}
+.codebutton{
+    margin-top: 40px;
+    margin-left: 184px;
+}
+input[type="reset"]{
+    background-color: rgba(138, 137, 137, 0.606);
+    color:white;
+    font-size: medium;
+    font-weight: bold;
+    border:none;
+    width: 120px;
+    height: 32px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    background-color:#8cc63f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 120px;
+    height: 32px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 18px;
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
