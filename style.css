@@ -7,7 +7,8 @@ header {
     background: linear-gradient(black,transparent),
                 url(Website\ Images/homePic.jpg);
     background-repeat:no-repeat;
-    background-size: 100%; 
+    background-size: 100%;
+    background-position:center
 }
 .main-header {
     width:100%;
@@ -143,7 +144,71 @@ footer #disclaimer2{
 }
 
 
-/*Contact Us*/
+/*About Page*/
+#about .index{
+    background: linear-gradient(black,transparent),
+                url(Website\ Images/aboutpic.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position:center;
+    min-height: 800px; 
+}
+#about main h2{
+    font-size: 36px;
+    width: 20px;
+    margin-left:100px;
+}
+#about main p{
+    width:550px;
+    height: 300px;
+    background-color: rgba(255, 254, 254, 0.678);
+    float: right;
+    margin-right: 20px;
+    margin-top: 85px;
+}
+
+/*Sustainability Index Page*/
+#sustainindex .index{
+    background: linear-gradient(black,transparent),
+                url(Website\ Images/sustainindex.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position:center;
+    min-height: 1000px;
+}
+#sustainindex main h1{
+    font-size: 80px;
+    margin-left:650px ;
+}
+
+
+/*Roadmay Page*/
+#roadmap .index{
+    background: linear-gradient(black,transparent),
+                url(Website\ Images/roadmapPic.webp);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position:center;
+    min-height: 950px;
+}
+
+
+/*Partners Page*/
+#partner .index{
+    background: linear-gradient(black,transparent),
+                url(Website\ Images/partnerpic.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position:center;
+    min-height: 1000px;
+}
+#partner main h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+/*Contact Us Page*/
 form{
     font-size: 20px;
 }
@@ -152,10 +217,8 @@ form{
                 url(Website\ Images/contactpic.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
-    height: auto;
-   
+    height: auto;  
 }
-
 #contact fieldset{
     background-color: rgba(255, 254, 254, 0.678);
     border:none;
