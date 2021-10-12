@@ -3,6 +3,13 @@ header {
     min-height: 200px;
     padding-top: 3em;
   }
+.logIn{
+    float: right;
+    background-color: #8cc63f;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
 .index{
     background: linear-gradient(black,transparent),
                 url(Website\ Images/homePic.jpg);
