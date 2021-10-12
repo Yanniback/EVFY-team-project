@@ -11,7 +11,7 @@ header {
     background-position:center
 }
 .SusIndex{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.582),transparent),
                 url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
@@ -153,10 +153,10 @@ footer #disclaimer2{
 
 /*About Page*/
 #about .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.596),transparent),
                 url(Website\ Images/aboutpic.jpg);
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position:center;
     min-height: 800px; 
 }
@@ -176,12 +176,12 @@ footer #disclaimer2{
 
 /*Sustainability Index Page*/
 #sustainindex .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
                 url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
-    background-size: 100%;
-    background-position:center;
-    min-height: 1000px;
+    background-size: cover;
+    background-position:center center fixed;
+    min-height: 1000px; 
 }
 #sustainindex main h1{
     font-size: 80px;
@@ -191,7 +191,7 @@ footer #disclaimer2{
 
 /*Roadmay Page*/
 #roadmap .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.589),transparent),
                 url(Website\ Images/roadmapPic.webp);
     background-repeat:no-repeat;
     background-size: 100%;
@@ -202,10 +202,10 @@ footer #disclaimer2{
 
 /*Partners Page*/
 #partner .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.582),transparent),
                 url(Website\ Images/partnerpic.jpg);
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position:center;
     min-height: 1000px;
 }
@@ -220,7 +220,7 @@ form{
     font-size: 20px;
 }
 #contact .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.541),transparent),
                 url(Website\ Images/contactpic.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
@@ -231,7 +231,7 @@ form{
     border:none;
     height: 540px;
     width: 510px;
-    margin-left: 1100px;
+    margin-left: 800px;
     margin-top: 60px;
     padding-left: 30px;
 }
@@ -308,7 +308,12 @@ input[type="submit"]{
 }
 
 
-
+/*About US*/
+main .about{
+    width: 300px;
+    height: 300px;
+    float: right;
+}
 
 
 
