@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 header {
     width: 100%;
     min-height: 200px;
@@ -326,3 +327,11 @@ main .about{
 
 
 
+=======
+body {
+  background-position: center;
+  background-image:url(path-to-file/img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;  
+}
+>>>>>>> Stashed changes
